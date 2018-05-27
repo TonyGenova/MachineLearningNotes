@@ -20,14 +20,25 @@ Example: 0 or 1 problem, need to choose between defined choices
   - a yes or no answer, a stock up or down 
     - may have two categories, may have more than two
     
-    
-    
 ##### Support Vector Machine (SVM)  
 Can handle an infinite number of features (X variables?)  
   
+##### Unsupervised Learning
+ - given this dataset, can the machine find structure?
+ - Clustering - how to identify groupings?  
+ -  
   
   
 ##### From Google Devleopers Machine Learning Series:
  - KNN - K Nearest neighbors - looks at data point, see what the K nearest neighbors to that data point by distance are, and the majority of K that have the same result is your result  
  - Decision Tree - series of True/False questions developed by the code to get to an end decision  
+ 
+ 
+ ##### Other notes
+ Accuracy, precision and F1 score:  
+ basics here: http://blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/
+  - Accuracy: overall accuracy, intuitively  
+  - Precision: True Positives/(True Positives + False Positives)  
+  - Recall: True Positives/(True Positives + False Negatives)  
+  - F1 Score: Formula balances Precision and Recall
 
