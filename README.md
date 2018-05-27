@@ -44,7 +44,9 @@ Can handle an infinite number of features (X variables?)
   
 #### interesting idea/concept:
 k-fold cross validation
- - Essentially slicing the data upbin various ways so the fitting and validation is performed on different oarts each time and results are overall 
+ - Essentially slicing the data upbin various ways so the fitting and validation is performed on different oarts each time and results are overall   
+ 
+ https://github.com/justmarkham/scikit-learn-videos/blob/master/07_cross_validation.ipynb. 
  
  Review these. 
  https://www.google.com/amp/www.dataschool.io/machine-learning-with-scikit-learn/amp/
