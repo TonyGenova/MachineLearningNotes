@@ -6,7 +6,7 @@ https://www.coursera.org/learn/machine-learning/lecture/Ujm7v/what-is-machine-le
 Machine Learning is having a computer learn how to succeed in a task by watching experience and improving performance on a task based on that experience  
 
 ##### Supervised Learning v Unsupervised Learning  
-Supervised: you teach the computer - ie looking for a prediction 
+Supervised: you teach the computer - ie looking for a prediction  
 Unsupervised: Computer learns for itself - not predictive, but more classification and descriptive. 
 
 
