@@ -50,5 +50,8 @@ k-fold cross validation
  https://github.com/justmarkham/scikit-learn-videos/blob/master/07_cross_validation.ipynb. 
  
  Review these. 
- https://www.google.com/amp/www.dataschool.io/machine-learning-with-scikit-learn/amp/
-
+ https://www.google.com/amp/www.dataschool.io/machine-learning-with-scikit-learn/amp/. 
+ 
+ scikit flow combines scikiy and tensorflow capabilities:. 
+ 
+https://www.kdnuggets.com/2016/02/scikit-flow-easy-deep-learning-tensorflow-scikit-learn.html. 
