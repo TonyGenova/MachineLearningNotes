@@ -46,4 +46,6 @@ Can handle an infinite number of features (X variables?)
 k-fold cross validation
  - Essentially slicing the data upbin various ways so the fitting and validation is performed on different oarts each time and results are overall 
  
+ Review these. 
+ https://www.google.com/amp/www.dataschool.io/machine-learning-with-scikit-learn/amp/
 
