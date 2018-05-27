@@ -40,5 +40,10 @@ Can handle an infinite number of features (X variables?)
   - Accuracy: overall accuracy, intuitively  
   - Precision: True Positives/(True Positives + False Positives)  
   - Recall: True Positives/(True Positives + False Negatives)  
-  - F1 Score: Formula balances Precision and Recall
+  - F1 Score: Formula balances Precision and Recall. 
+  
+#### interesting idea/concept:
+k-fold cross validation
+ - Essentially slicing the data upbin various ways so the fitting and validation is performed on different oarts each time and results are overall 
+ 
 
