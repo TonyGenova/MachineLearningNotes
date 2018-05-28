@@ -26,8 +26,13 @@ Can handle an infinite number of features (X variables?)
   
 ##### Unsupervised Learning
  - given this dataset, can the machine find structure?
- - Clustering - how to identify groupings?  
- -  
+ - Clustering - how to identify groupings? 
+ 
+#### Model and Cost Function Section
+ - Hypothesis (h) is tested on how X maps to Y
+    - Hypothesis probably not best word, but is standard terminology
+    - Choose Intercept and slope (Theta 0, Theta 1) to minimize square of diffs between h(x) and actual y
+    - J() is what we are minimizing - the squared error cost function
   
   
 ##### From Google Devleopers Machine Learning Series:
