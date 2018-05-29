@@ -22,7 +22,8 @@ Example: 0 or 1 problem, need to choose between defined choices
     - may have two categories, may have more than two
     
 ##### Support Vector Machine (SVM)  
-Can handle an infinite number of features (X variables?)  
+Good outline:  
+https://medium.com/machine-learning-101/chapter-2-svm-support-vector-machine-theory-f0812effc72  
   
 ##### Unsupervised Learning
  - given this dataset, can the machine find structure?
