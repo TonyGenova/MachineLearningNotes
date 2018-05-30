@@ -20,10 +20,6 @@ Example - have data, can use straight line or quadratic equation to calculate an
 Example: 0 or 1 problem, need to choose between defined choices
   - a yes or no answer, a stock up or down 
     - may have two categories, may have more than two
-    
-##### Support Vector Machine (SVM)  
-Good outline:  
-https://medium.com/machine-learning-101/chapter-2-svm-support-vector-machine-theory-f0812effc72  
   
 ##### Unsupervised Learning
  - given this dataset, can the machine find structure?
@@ -35,12 +31,26 @@ https://medium.com/machine-learning-101/chapter-2-svm-support-vector-machine-the
     - Choose Intercept and slope (Theta 0, Theta 1) to minimize square of diffs between h(x) and actual y
     - J() is what we are minimizing - the squared error cost function
   
+##### From ISLR 2.2 pg 29 (7th ed)    
+There is no free lunch in statistics: no one method dominates all others over all
+possible data sets. On a particular data set, one specific method may work
+best, but some other method may work better on a similar but different
+data set. Hence it is an important task to decide for any given set of data
+which method produces the best results. Selecting the best approach can
+be one of the most challenging parts of performing statistical learning in
+practice.    
+
   
 ##### From Google Devleopers Machine Learning Series:
  - KNN - K Nearest neighbors - looks at data point, see what the K nearest neighbors to that data point by distance are, and the majority of K that have the same result is your result  
  - - KNN should be scaled, see http://scikit-learn.org/stable/modules/preprocessing.html
  - Decision Tree - series of True/False questions developed by the code to get to an end decision  
  
+   
+##### Support Vector Machine (SVM)  
+Good outline:  
+https://medium.com/machine-learning-101/chapter-2-svm-support-vector-machine-theory-f0812effc72  
+  
  
  ##### Other notes
  Accuracy, precision and F1 score:  
