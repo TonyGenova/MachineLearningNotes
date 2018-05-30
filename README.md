@@ -29,7 +29,7 @@ Example: 0 or 1 problem, need to choose between defined choices
  - Hypothesis (h) is tested on how X maps to Y
     - Hypothesis probably not best word, but is standard terminology
     - Choose Intercept and slope (Theta 0, Theta 1) to minimize square of diffs between h(x) and actual y
-    - J() is what we are minimizing - the squared error cost function
+    - J() is what we are minimizing - the squared error cost function - The MSE
   
 ##### From ISLR 2.2 pg 29 (7th ed)    
 There is no free lunch in statistics: no one method dominates all others over all
