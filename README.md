@@ -68,8 +68,11 @@ single training observation) or a method with very low variance but high
 bias (by fitting a horizontal line to the data). The challenge lies in finding
 a method for which both the variance and the squared bias are low.
 
-#### Bayes Classifier  
-Simple classifier, gives prob of Y category given value of X  
+#### Bayes Classifier  (ISLR pg 37-39)
+Simple classifier, gives prob of Y category given value of X. In theory we would always like to predict qualitative responses using the Bayes classifier. But for real data, we do not know the conditional distribution
+of Y given X, and so computing the Bayes classifier is impossible.
+Therefore, the Bayes classifier serves as an unattainable gold standard
+against which to compare other methods.  
 
 ##### From Google Devleopers Machine Learning Series:
 ##### - KNN - K Nearest neighbors  
