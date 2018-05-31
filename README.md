@@ -74,7 +74,7 @@ bias (by fitting a horizontal line to the data). The challenge lies in finding
 a method for which both the variance and the squared bias are low.
 
 #### Bayes Classifier  (ISLR pg 37-39)
-Simple classifier, gives prob of Y category given value of X. In theory we would always like to predict qualitative responses using the Bayes classifier. But for real data, we do not know the conditional distribution
+>Simple classifier, gives prob of Y category given value of X. In theory we would always like to predict qualitative responses using the Bayes classifier. But for real data, we do not know the conditional distribution
 of Y given X, and so computing the Bayes classifier is impossible.
 Therefore, the Bayes classifier serves as an unattainable gold standard
 against which to compare other methods.  
@@ -110,11 +110,10 @@ https://medium.com/machine-learning-101/chapter-2-svm-support-vector-machine-the
   - Recall: True Positives/(True Positives + False Negatives)  
   - F1 Score: Formula balances Precision and Recall. 
   
-#### interesting idea/concept:
-k-fold cross validation
- - Essentially slicing the data upbin various ways so the fitting and validation is performed on different oarts each time and results are overall   
- 
- https://github.com/justmarkham/scikit-learn-videos/blob/master/07_cross_validation.ipynb. 
+
+#### k-fold cross validation
+ - Slicing the data up in various ways so the fitting and validation is performed on different Parts each time and results are overall combined.    
+  https://github.com/justmarkham/scikit-learn-videos/blob/master/07_cross_validation.ipynb. 
  
  Review these. 
  https://www.google.com/amp/www.dataschool.io/machine-learning-with-scikit-learn/amp/. 
