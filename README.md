@@ -68,9 +68,12 @@ single training observation) or a method with very low variance but high
 bias (by fitting a horizontal line to the data). The challenge lies in finding
 a method for which both the variance and the squared bias are low.
 
-  
+#### Bayes Classifier  
+Simple classifier, gives prob of Y category given value of X  
+
 ##### From Google Devleopers Machine Learning Series:
- - KNN - K Nearest neighbors - looks at data point, see what the K nearest neighbors to that data point by distance are, and the majority of K that have the same result is your result  
+##### - KNN - K Nearest neighbors  
+- looks at data point, see what the K nearest neighbors to that data point by distance are, and the majority of K that have the same result is your result  
  - - KNN should be scaled, see http://scikit-learn.org/stable/modules/preprocessing.html
  - Decision Tree - series of True/False questions developed by the code to get to an end decision  
  
