@@ -1,6 +1,11 @@
 ### MachineLearningNotes
-##### Notes on Machine Learning 
-
+##### Notes on Machine Learning
+  
+Notes built from:  
+ - Google Devleopers Machine Learning Series YouTube videos https://www.youtube.com/watch?v=cKxRvEZd3Mw
+ - Coursera Machine Learning course (Stanford University/Andrew Ng) https://www.coursera.org/learn/machine-learning/
+ - ISL (Introduction to Statistical Learning) Textbook http://www-bcf.usc.edu/~gareth/ISL/
+ 
 From Coursera Lecture "What is Machine Learning"  
 https://www.coursera.org/learn/machine-learning/lecture/Ujm7v/what-is-machine-learning  
 Machine Learning is having a computer learn how to succeed in a task by watching experience and improving performance on a task based on that experience  
@@ -74,11 +79,17 @@ of Y given X, and so computing the Bayes classifier is impossible.
 Therefore, the Bayes classifier serves as an unattainable gold standard
 against which to compare other methods.  
 
-##### From Google Devleopers Machine Learning Series:
+
 ##### - KNN - K Nearest neighbors  
 - looks at data point, see what the K nearest neighbors to that data point by distance are, and the majority of K that have the same result is your result  
- - - KNN should be scaled, see http://scikit-learn.org/stable/modules/preprocessing.html
- - Decision Tree - series of True/False questions developed by the code to get to an end decision  
+   - KNN should be scaled, see http://scikit-learn.org/stable/modules/preprocessing.html  
+ - Need to have right fitting for K to reduce error on test data
+   - 1 will be perfect on training data, but too granular to be useful for test data
+   - ISLR 2.2.3 pgs 40-42 demonstrates examples of the impact of this
+   - Too high K, and starts to turn into linear regression 
+ 
+#### Decision Tree  
+ - series of True/False questions developed by the code to get to an end decision  
  
    
 ##### Support Vector Machine (SVM)  
