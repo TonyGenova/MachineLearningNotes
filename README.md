@@ -58,7 +58,15 @@ too much between training sets
 >__Bias__ refers to the error that is introduced by approximating
 a real-life problem, which may be extremely complicated, by a much
 simpler model. 
->Generally, more flexible methods result in less bias.
+>Generally, more flexible methods result in less bias.  
+__Bias Variance Trade Off__ p36 ISLR  
+>Good test set performance of a statistical learning method re- bias-variance
+quires low variance as well as low squared bias. This is referred to as a trade-off
+trade-off because it is easy to obtain a method with extremely low bias but
+high variance (for instance, by drawing a curve that passes through every
+single training observation) or a method with very low variance but high
+bias (by fitting a horizontal line to the data). The challenge lies in finding
+a method for which both the variance and the squared bias are low.
 
   
 ##### From Google Devleopers Machine Learning Series:
