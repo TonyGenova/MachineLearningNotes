@@ -49,6 +49,17 @@ the training data, the test MSE will be very large because the supposed
 patterns that the method found in the training data simply don’t exist
 in the test data. 
 
+#### Variable and bias in training data, ISLR pgs 34-35
+>__Variance__ refers to the amount by which ˆf would change if we
+estimated it using a different training data set. Since the training data
+are used to fit the statistical learning method, different training data sets
+will result in a different ˆf. But ideally the estimate for f should not vary
+too much between training sets  
+>__Bias__ refers to the error that is introduced by approximating
+a real-life problem, which may be extremely complicated, by a much
+simpler model. 
+>Generally, more flexible methods result in less bias.
+
   
 ##### From Google Devleopers Machine Learning Series:
  - KNN - K Nearest neighbors - looks at data point, see what the K nearest neighbors to that data point by distance are, and the majority of K that have the same result is your result  
@@ -58,7 +69,7 @@ in the test data.
    
 ##### Support Vector Machine (SVM)  
 Good outline:  
-https://medium.com/machine-learning-101/chapter-2-svm-support-vector-machine-theory-f0812effc72  
+https://medium.com/machine-learning-101/chapter-2-svm-support-vector-machine-theory-f0812effc72   
   
  
  ##### Other notes
