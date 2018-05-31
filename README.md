@@ -32,13 +32,22 @@ Example: 0 or 1 problem, need to choose between defined choices
     - J() is what we are minimizing - the squared error cost function - The MSE
   
 ##### From ISLR 2.2 pg 29 (7th ed)    
-There is no free lunch in statistics: no one method dominates all others over all
+>There is no free lunch in statistics: no one method dominates all others over all
 possible data sets. On a particular data set, one specific method may work
 best, but some other method may work better on a similar but different
 data set. Hence it is an important task to decide for any given set of data
 which method produces the best results. Selecting the best approach can
 be one of the most challenging parts of performing statistical learning in
 practice.    
+##### ISLR 2.2.1 pg 32 (7th ed)
+>When a given method yields a small training MSE but a large test MSE, we are
+>said to be overfitting the data. This happens because our statistical learning
+>procedure is working too hard to find patterns in the training data, and
+may be picking up some patterns that are just caused by random chance
+rather than by true properties of the unknown function f. When we overfit
+the training data, the test MSE will be very large because the supposed
+patterns that the method found in the training data simply don’t exist
+in the test data. 
 
   
 ##### From Google Devleopers Machine Learning Series:
