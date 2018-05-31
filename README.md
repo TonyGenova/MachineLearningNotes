@@ -86,7 +86,12 @@ against which to compare other methods.
  - Need to have right fitting for K to reduce error on test data
    - 1 will be perfect on training data, but too granular to be useful for test data
    - ISLR 2.2.3 pgs 40-42 demonstrates examples of the impact of this
-   - Too high K, and starts to turn into linear regression 
+   - Too high K, and starts to turn into linear regression  
+ - Two common modifcation (from ISL):  
+   - Kernel methods use weights that decrease smoothly to zero with distance from the target point, rather than the effective 0/1 weights used by k-nearest neighbors.
+   - In high-dimensional spaces the distance kernels are modified to emphasize
+some variable more than others.  
+   
  
 #### Decision Tree  
  - series of True/False questions developed by the code to get to an end decision  
