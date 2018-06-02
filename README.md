@@ -84,7 +84,7 @@ against which to compare other methods.
 #### ISL 3.2.2 - Multiple Regression: deciding which variables are important  
  - Forward Selection: test all variables individually, selected lowest RSS, then select remaining variables with that selection, repeat until reasonable criteria satisfied  
  - Backward Selection: test all variables in one model, remove variable with highest P Value, repeat until no P Value requires elimination  
- - Mixed Selection: Start with Forward Selection process, but then remove variables where P Value then rises as testing continues   
+ - Mixed Selection: Start with Forward Selection process, but then remove variables where P Value then rises as testing continues. This fixes issues with Forward Selection where variables become redundant.     
 
 ##### - KNN - K Nearest neighbors  
 - looks at data point, see what the K nearest neighbors to that data point by distance are, and the majority of K that have the same result is your result  
