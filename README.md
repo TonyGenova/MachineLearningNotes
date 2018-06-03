@@ -127,9 +127,17 @@ Classification problems look for a qualitative response
  - Can handle multipe classes, while Logistic is better for 2 classes (though Logistic can handle more)  
  - Approximates Bayes Classifier  
  - From ISL 4.4.2:
-   - > LDA classifier results from assuming that the observations within each class come from a normal distribution with a class-specific mean vector and a common variance σ2, and plugging estimates for these parameters into the Bayes classifier
+   - > LDA classifier results from assuming that the observations within each class come from a normal distribution with a class-specific mean vector and a common variance σ2, and plugging estimates for these parameters into the Bayes classifier  
+ - With LDA, can change threshold of classification (so instead of needed 50% of criteria, can flag at 20%, etc.  
+   - for use when you may not care about how one group performs, but want flags for anyone possible in another group  
+   
+##### ROC Curve (ISL 4.4.3)
+ - go back and review, perhaps look up another source. interesting/useful but i didn't quite grok it.
   
 ##### KNN - K Nearest neighbors  
+- non-parametric approach, as opposed to LDA, Logistic regression  
+  - performs better then LDA and Logistic when decision boundary is non-linear  
+  - KNN does not tell us which predictors are important  
 - looks at data point, see what the K nearest neighbors to that data point by distance are, and the majority of K that have the same result is your result  
    - KNN should be scaled, see http://scikit-learn.org/stable/modules/preprocessing.html  
  - Need to have right fitting for K to reduce error on test data
