@@ -103,8 +103,20 @@ differ from the population regression plane (the irreducible error).
  - account for the combination of two linear factors
  - include multiplied x1 * x2 as a separate factor in model
  - if including interaction multiplier, should also keep both the base x1 and x2 even if high P value for one of them
+ 
+#### Non-linear data (ISL 3.3.2)
+ - Polynomial Regression is a simple way to attempt to fit non linear data. 
+   - Can use X^2, X^3, X^4, as many polynomial terms as seem to smooth out fit
+   - Can also use logX, sqrtX  
+    
+#### Collinearity
+Variables that have high correlation may throw off model results
+ - Inspect correlation matrix between variables
+ - Having two highly correlated variables will increase the std error and the P Value for one/both
+ - Can eliminate one variable, or combine both into one new variable  
+   
 
-##### - KNN - K Nearest neighbors  
+##### KNN - K Nearest neighbors  
 - looks at data point, see what the K nearest neighbors to that data point by distance are, and the majority of K that have the same result is your result  
    - KNN should be scaled, see http://scikit-learn.org/stable/modules/preprocessing.html  
  - Need to have right fitting for K to reduce error on test data
