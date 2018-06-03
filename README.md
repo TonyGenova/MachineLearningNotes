@@ -118,10 +118,16 @@ Variables that have high correlation may throw off model results
 ### Classification (ISL 4)  
 Classification problems look for a qualitative response  
   
-##### Logistic Regression
+##### Logistic Regression (ISL 4.3)  
  - Models the probability of being in 1 of 2 categories given input
    - ie Yes/No questions, pass/fail, win/loss, etc
-  
+    
+##### Linear Discriminant Analysis (ISL 4.4)   
+ - is often more stable than Logistic Regression  
+ - Can handle multipe classes, while Logistic is better for 2 classes (though Logistic can handle more)  
+ - Approximates Bayes Classifier  
+ - From ISL 4.4.2:
+   - > LDA classifier results from assuming that the observations within each class come from a normal distribution with a class-specific mean vector and a common variance σ2, and plugging estimates for these parameters into the Bayes classifier
   
 ##### KNN - K Nearest neighbors  
 - looks at data point, see what the K nearest neighbors to that data point by distance are, and the majority of K that have the same result is your result  
