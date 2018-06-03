@@ -167,8 +167,8 @@ https://medium.com/machine-learning-101/chapter-2-svm-support-vector-machine-the
   - Recall: True Positives/(True Positives + False Negatives)  
   - F1 Score: Formula balances Precision and Recall. 
   
-
-#### k-fold cross validation
+#### Resampling - Cross Validation and Bootstrap
+##### k-fold cross validation
  - Slicing the data up in various ways so the fitting and validation is performed on different Parts each time and results are overall combined.    
   https://github.com/justmarkham/scikit-learn-videos/blob/master/07_cross_validation.ipynb. 
  
