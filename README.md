@@ -109,13 +109,20 @@ differ from the population regression plane (the irreducible error).
    - Can use X^2, X^3, X^4, as many polynomial terms as seem to smooth out fit
    - Can also use logX, sqrtX  
     
-#### Collinearity
+#### Collinearity (ISL 3.3)
 Variables that have high correlation may throw off model results
  - Inspect correlation matrix between variables
  - Having two highly correlated variables will increase the std error and the P Value for one/both
  - Can eliminate one variable, or combine both into one new variable  
    
-
+### Classification (ISL 4)  
+Classification problems look for a qualitative response  
+  
+##### Logistic Regression
+ - Models the probability of being in 1 of 2 categories given input
+   - ie Yes/No questions, pass/fail, win/loss, etc
+  
+  
 ##### KNN - K Nearest neighbors  
 - looks at data point, see what the K nearest neighbors to that data point by distance are, and the majority of K that have the same result is your result  
    - KNN should be scaled, see http://scikit-learn.org/stable/modules/preprocessing.html  
