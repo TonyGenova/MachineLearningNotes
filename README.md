@@ -91,7 +91,18 @@ against which to compare other methods.
 >Prediction intervals are always wider than confidence intervals, because they
 incorporate both the error in the estimate for f(X) (the reducible
 error) and the uncertainty as to how much an individual point will
-differ from the population regression plane (the irreducible error).
+differ from the population regression plane (the irreducible error).  
+  
+#### Qualitative Variables (ISL 3.3.1)
+ - Can be signified with dummy variables (0 or 1) 
+   - Male/Female, East/West
+   - can go multiple levels with a series of dummy variables (ie if have five choices, use 1 as baseline and 4 dummy variables)
+
+  
+#### Interaction terms (ISL 3.3.2)
+ - account for the combination of two linear factors
+ - include multiplied x1 * x2 as a separate factor in model
+ - if including interaction multiplier, should also keep both the base x1 and x2 even if high P value for one of them
 
 ##### - KNN - K Nearest neighbors  
 - looks at data point, see what the K nearest neighbors to that data point by distance are, and the majority of K that have the same result is your result  
