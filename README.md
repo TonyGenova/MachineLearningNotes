@@ -172,6 +172,11 @@ https://medium.com/machine-learning-101/chapter-2-svm-support-vector-machine-the
  - Slicing the data up in various ways so the fitting and validation is performed on different Parts each time and results are overall combined.    
   https://github.com/justmarkham/scikit-learn-videos/blob/master/07_cross_validation.ipynb. 
  
+##### Gradient Descent  
+Basic concept outlined with code: https://medium.com/@rohanjoseph_91119/implement-gradient-descent-in-python-9b93ed7108d1  
+Another conceptual outline with code: http://ml-cheatsheet.readthedocs.io/en/latest/gradient_descent.html
+ 
+ 
  Review these. 
  https://www.google.com/amp/www.dataschool.io/machine-learning-with-scikit-learn/amp/. 
  
