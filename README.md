@@ -157,7 +157,9 @@ some variable more than others.
 ##### Support Vector Machine (SVM)  
 Good outline:  
 https://medium.com/machine-learning-101/chapter-2-svm-support-vector-machine-theory-f0812effc72   
-  
+##### Gridsearch in SVM    
+Gridsearch is a method to test an array of settings to find best output:  
+https://github.com/juinc/python_data_science_and_machine_learning_bootcamp/blob/master/Machine%20Learning%20Sections/Support-Vector-Machines/Support%20Vector%20Machines%20with%20Python.ipynb   
  
  ##### Other notes
  Accuracy, precision and F1 score:  
