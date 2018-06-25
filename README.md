@@ -28,7 +28,12 @@ Example: 0 or 1 problem, need to choose between defined choices
   
 ##### Unsupervised Learning
  - given this dataset, can the machine find structure?
- - Clustering - how to identify groupings? 
+ - Clustering - how to identify groupings?   
+###### K Means
+ - Randomly assign cluster centroid
+   - Compute mean of points assigned to each group, then move the cluster centroid to the mean point
+   - recompute which points are now assigned to the centroid, and repeat process  
+ - Parameters
  
 #### Model and Cost Function Section
  - Hypothesis (h) is tested on how X maps to Y
