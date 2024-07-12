@@ -157,7 +157,8 @@ some variable more than others.
  
 #### Decision Tree  
  - series of True/False questions developed by the code to get to an end decision  
- 
+#### Random Forest  
+ - Uses a series of trees, decision made by averaging predictions of each tree  
    
 ##### Support Vector Machine (SVM)  
 Good outline:  
