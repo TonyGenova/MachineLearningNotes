@@ -49,6 +49,13 @@ data set. Hence it is an important task to decide for any given set of data
 which method produces the best results. Selecting the best approach can
 be one of the most challenging parts of performing statistical learning in
 practice.    
+##### Overfitting and Underfitting  
+Overfitting: Tuning to the training data perfectly, but doesn't translate to test data - ie model is too specific to training data  
+Underfitting: Model isn't granular enough to give a useful result, dive deeper into training data to see what else can be used  
+Ultimately want the lowest MSE on validation data  
+Example of looping through numbers of leaf nodes to reduce MSE:  
+https://github.com/Jazielinho/kaggle-30-days/blob/master/day_10/underfitting-and-overfitting.ipynb
+
 ##### ISLR 2.2.1 pg 32 (7th ed)
 >When a given method yields a small training MSE but a large test MSE, we are
 >said to be overfitting the data. This happens because our statistical learning
@@ -102,7 +109,10 @@ differ from the population regression plane (the irreducible error).
  - Can be signified with dummy variables (0 or 1) 
    - Male/Female, East/West
    - can go multiple levels with a series of dummy variables (ie if have five choices, use 1 as baseline and 4 dummy variables)
-
+#### Categorical variables  
+  Have limited number of values, sometimes a ranking, or sometimes purely qualatative  
+  Ordinal Encoding - can use on ranked variables, where there is a logical "0", "1", "2", etc  
+  One Hot Encoding - creates a new set of columns for each choice, denoting the existence of that choice as a 0/1  
   
 #### Interaction terms (ISL 3.3.2)
  - account for the combination of two linear factors
