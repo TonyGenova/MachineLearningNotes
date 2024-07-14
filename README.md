@@ -5,6 +5,8 @@ Notes built from:
  - Google Devleopers Machine Learning Series YouTube videos https://www.youtube.com/watch?v=cKxRvEZd3Mw
  - Coursera Machine Learning course (Stanford University/Andrew Ng) https://www.coursera.org/learn/machine-learning/
  - ISL (Introduction to Statistical Learning) Textbook http://www-bcf.usc.edu/~gareth/ISL/
+ - Kaggle's 30 Days of Machine Learning
+ - Approaching Almost Any Machine Learning Problem by Abhishek Thakur  
  
 From Coursera Lecture "What is Machine Learning"  
 https://www.coursera.org/learn/machine-learning/lecture/Ujm7v/what-is-machine-learning  
@@ -104,6 +106,11 @@ against which to compare other methods.
 incorporate both the error in the estimate for f(X) (the reducible
 error) and the uncertainty as to how much an individual point will
 differ from the population regression plane (the irreducible error).  
+
+#### Handling Missing Data  
+<b>Imputation</b> - Imply a value based on other similar values in data  
+Can also note in data what values were imputed: https://github.com/Jazielinho/kaggle-30-days/blob/master/day_12/missing-values.ipynb  
+  - may give additional error reduction  
   
 #### Qualitative Variables (ISL 3.3.1)
  - Can be signified with dummy variables (0 or 1) 
@@ -111,8 +118,8 @@ differ from the population regression plane (the irreducible error).
    - can go multiple levels with a series of dummy variables (ie if have five choices, use 1 as baseline and 4 dummy variables)
 #### Categorical variables  
   Have limited number of values, sometimes a ranking, or sometimes purely qualatative  
-  Ordinal Encoding - can use on ranked variables, where there is a logical "0", "1", "2", etc  
-  One Hot Encoding - creates a new set of columns for each choice, denoting the existence of that choice as a 0/1  
+  <b>Ordinal Encoding</b> - can use on ranked variables, where there is a logical "0", "1", "2", etc  
+  <b>One Hot Encoding</b> - creates a new set of columns for each choice, denoting the existence of that choice as a 0/1  
   
 #### Interaction terms (ISL 3.3.2)
  - account for the combination of two linear factors
@@ -187,17 +194,22 @@ https://github.com/juinc/python_data_science_and_machine_learning_bootcamp/blob/
   
 #### Resampling - Cross Validation and Bootstrap
 ##### k-fold cross validation
- - Slicing the data up in various ways so the fitting and validation is performed on different Parts each time and results are overall combined.    
-  https://github.com/justmarkham/scikit-learn-videos/blob/master/07_cross_validation.ipynb. 
+ - Slicing the data up in fixed chunks so the fitting and validation is performed on different combinations each time and results are overall combined
+ - Can be useful for smaller data sets with limited observations, larger data sets may not need cross validation      
+  https://github.com/justmarkham/scikit-learn-videos/blob/master/07_cross_validation.ipynb
+  https://github.com/Jazielinho/kaggle-30-days/blob/master/day_13/cross-validation.ipynb
+
+##### Ensemble Methods
+ - combine results of several models to get an overall improved result
+ - Random Forest is an example
  
 ##### Gradient Descent  
 Basic concept outlined with code: https://medium.com/@rohanjoseph_91119/implement-gradient-descent-in-python-9b93ed7108d1  
 Another conceptual outline with code: http://ml-cheatsheet.readthedocs.io/en/latest/gradient_descent.html
+
+##### XGBoost
+ - Software library for gradient descent, works well with tabular data
+ - https://github.com/Jazielinho/kaggle-30-days/blob/master/day_14/xgboost.ipynb
  
  
- Review these. 
- https://www.google.com/amp/www.dataschool.io/machine-learning-with-scikit-learn/amp/. 
- 
- scikit flow combines scikiy and tensorflow capabilities:. 
- 
-https://www.kdnuggets.com/2016/02/scikit-flow-easy-deep-learning-tensorflow-scikit-learn.html. 
+
